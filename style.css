@@ -1,0 +1,649 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    /* border: red solid 2px; */
+    width: 100%;
+    height: fit-content;
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftUpperCornerLinks-container {
+    margin-top: 1rem;
+}
+
+.logo-container {
+    /* border: rgb(0, 77, 128) solid 2px; */
+    
+    
+    width: 7rem;
+    height: 3rem;
+}
+
+.logo {
+    /* border: red solid 2px; */
+    width: 100%;
+    height: 3rem;
+}
+
+ul {
+    /* border: green solid 2px; */
+
+    width: 33%;
+    height: 3rem;
+    
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    /* border: red solid 2px; */
+    display: inline;
+
+    
+}
+
+.rightUpperCornerLinks-container {
+    /* border: blue dashed 2px; */
+    width: 41.5%;
+
+    margin-right: 1rem;
+    margin-top: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.rightUpperCornerButtons-container {
+    width: 32.6%;
+}
+
+.try-btn {
+    border: black solid 1px;
+    background-color: #3F9BF8;
+    color: white;
+
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+}
+
+.signIn-btn {
+    border: black solid 1px;
+
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.slogan {
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+/*-----------------------------*/
+/*---------- Gallery ----------*/
+/*-----------------------------*/
+
+.gallery-container {
+    background-color: #3F4655;
+
+    width: 100%;
+    height: 18rem;
+
+    display: flex;
+    
+}
+
+.firstSquare {
+    border-right: black solid 0.1px;
+    width: 27%;
+
+    text-align: center;
+}
+
+.secondSquare {
+    border-right: black solid 0.1px;
+    width: 24%;
+
+    text-align: center;
+}
+
+.thirdSquare {
+    border-right: black solid 0.1px;
+    width: 24%;
+
+    text-align: center;
+}
+
+.forthSquare {
+    width: 27%;
+
+    text-align: center;
+}
+
+.firstSquare img,
+.secondSquare img,
+.thirdSquare img,
+.forthSquare img {
+    background-color: #ffffff;
+    width: 6rem;
+    height: 6rem;
+
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.firstSquareHeader,
+.secondSquareHeader,
+.thirdSquareHeader,
+.forthSquareHeader {
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+    text-align: center;
+
+    padding-bottom: 0.8rem;
+
+}
+
+.firstSquareText,
+.secondSquareText,
+.thirdSquareText,
+.forthSquareText {
+    color: rgb(194, 194, 194);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.activeCollab-container {
+    /* border: rgb(60, 255, 0) solid 2px; */
+    background-color: #E9EDF2;
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.activeCollabText {
+    /* border: red solid 2px; */
+    width: 50%;
+
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    display: flex;
+}
+
+.tryIt-container {
+    /* border: red solid 2px; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tryIt-container-button {
+    /* border: red solid 2px; */
+    /* background-color: #3093F7; */
+
+    /* width: 17%; */
+    /* text-align: center;
+    color: white; */
+    
+
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    /* border: black solid 1px; */
+    /* border-radius: 0.4rem/0.4rem; */
+
+    display: flex;
+    
+}
+
+.tryIt-container-button .tryItButton {
+    /* border: orange solid 3px; */
+    background-color: #3F9BF8;
+    border-radius: 0.4rem/0.4rem;
+
+    font-size: 1rem;
+    color: white;
+
+    padding: 0.6rem 2rem 0.6rem 2rem;
+
+    
+}
+
+.textUnderTryItButton {
+    /* border:  red solid 2px; */
+
+    margin-top: 1.5rem;
+
+    font-size: 0.9rem;
+    color: rgb(70, 70, 70);
+}
+
+.image-container {
+    /* border: rgb(0, 255, 179) solid 2px; */
+    background-color: #E9EDF2;
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-container img {
+    /* border: red solid 2px; */
+    background-color: whitesmoke;
+    width: 70%;
+    height: 30rem;
+
+    margin-top: 5rem;
+}
+
+.servers-container {
+    /* border: red solid 2px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serversHeaderText {
+    /* border: blue solid 2px; */
+
+    width: 30%;
+    font-size: 1.7rem;
+
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.serversText {
+    /* border: red dashed 2px; */
+
+    margin-top: 2rem;
+    text-align: center;
+
+    font-size: 1.2rem;
+
+    display: flex;
+}
+
+.subscription {
+    /* border: red solid 2px; */
+
+    width: 40%;
+    height: 32rem;
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.monthlyPlans {
+    border-right: gray solid 1px;
+    width: 50%;
+    height: 58%;
+    padding-top: 2rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monthlyPricingButton {
+    background-color: #3F9BF8;
+    color: white;
+
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.selfHosted {
+    /* border: green solid 2px; */
+    width: 50%;
+
+    padding-top: 2rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selfHostedButton {
+    background-color: #3F9BF8;
+    color: white;
+
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.selfHostedHeaderText {
+
+}
+
+.whosUsing {
+    /* border: red solid 2px; */
+    background-color: #E9EDF2;
+
+    width: 100%;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whosUsingHeaderText {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    font-size: 1.5rem;
+}
+
+.whosUsingText {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+}
+
+.whosUsingGallery-container {
+    /* border: blue solid 2px; */
+
+    width: 80%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.whosUsingGallery-container img {
+    background-color: gray;
+
+    width: 10%;
+    height: 6rem;
+
+}
+
+.formText-container {
+    /* border: blue dashed 2px; */
+    /* background-color: white; */
+
+    width: 100%;
+    height: 44rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formTextHeader {
+    /* border: red dashed 2px; */
+
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+    font-size: 2rem;
+
+    display: flex;
+}
+
+.formText {
+    text-align: center;
+
+    display: flex;
+}
+
+form {
+    border: gray solid 1px;
+    border-radius: 0.3rem/0.3rem;
+    background-color: #E9EDF2;
+
+    width: 36%;
+    height: 22rem;
+
+    margin-top: 2.3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    /* border: green solid 2px; */
+    width: 89%;
+    height: fit-content;
+
+    padding-top: 1rem;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+input {
+    border: gray solid 1px;
+    width: 89%;
+    height: 2.2rem;
+
+    border-radius: 0.3rem/0.3rem;
+
+}
+
+label[for="name"] {
+    margin-top: 1rem;
+}
+
+button[type="submit"] {
+    /* padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem; */
+
+    background-color: #3F9BF8;
+    color: white;
+
+    padding: 0.4rem 0.9rem 0.4rem 0.9rem;
+    border: black solid 0.1rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.textUnderSubmitButton {
+    /* border: red solid 2px; */
+
+    margin-bottom: 1rem;
+}
+
+.textUnderForm {
+    /* border: red solid 2px; */
+    color: #3F4655;
+
+    margin-top: 1.5rem;
+
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+.underlinedTextUnderForm {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+
+footer {
+    /* border: red dashed 1px; */
+    background-color: #3F4655;
+    width: 100%;
+    height: 33rem;
+
+    color: white;
+
+    font-size: 0.9rem;
+    font-weight: 100;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerList-container {
+    /* border:  green solid 2px; */
+
+    width: 100%;
+    height: 2s5rem;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+
+    /* text-align: left; */
+
+    display: flex;
+    justify-items: space-around;
+}
+
+footer ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.firstFooterUl {
+    
+    width: 14rem;
+    height: 16rem;
+
+    display: flex;
+}
+
+.secondFooterUl {
+    
+    width: 58rem;
+    height: 16.3rem;
+
+    display: flex;
+}
+
+.thirdFooterUl {
+    
+    width: 35rem;
+    height: 17.7rem;
+
+    display: flex;
+}
+
+.forthFooterUl {
+    
+    width: 20rem;
+    height: 17rem;
+
+    display: flex;
+}
+
+.fifthFooterUl {
+    
+    width: 18rem;
+    height: 17rem;
+
+    display: flex;
+}
+
+.sixthFooterUl {
+    
+    width: 33rem;
+    height: 18rem;
+
+    display: flex;
+}
+
+footer li {
+    /* border: blue dashed 2px; */
+    
+    width: 100%;
+/* 
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.notDisplayed {
+    /* border: red solid 2px; */
+    opacity: 0;
+}
+
+.smallGallery {
+    /* border: red solid 2px; */
+    width: 29%;
+
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallGallery img {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+}
+
+.endText-container {
+    /* border: blue dashed 2px; */
+
+    text-align: center;
+}
+
+.endText {
+    color: rgb(194, 192, 192);
+}
